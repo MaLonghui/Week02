@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ShowActivity">
+
+    <com.bawei.week02_moni.MyToaBar
+        android:id="@+id/my_topBar"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        app:left_background="@drawable/left_selector"
+        app:left_text="返回"
+        app:right_text="提交"
+        app:text_color="#fff"
+        app:title_text="首页"></com.bawei.week02_moni.MyToaBar>
+
+    <com.hjm.bottomtabbar.BottomTabBar
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_weight="9"
+        android:layout_height="0dp"></com.hjm.bottomtabbar.BottomTabBar>
+
+
+</LinearLayout>
